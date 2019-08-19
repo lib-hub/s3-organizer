@@ -15,4 +15,4 @@ parts:
 
 apps:
   s3-browser:
-    command: setup
+    command: ./setup
