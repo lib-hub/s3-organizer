@@ -8,11 +8,12 @@ base: core18
 parts:
   s3-browser:
     plugin: python
-    python-version: python2
+    python-version: python3
     source: .
     stage-packages:
       - python-six
+      - libgtk-3-dev
 
 apps:
   s3-browser:
-    command: ./setup
+    command: python3 setup
