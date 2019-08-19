@@ -16,4 +16,4 @@ parts:
 
 apps:
   s3-browser:
-    command: python3 setup
+    command: python3 ./setup
