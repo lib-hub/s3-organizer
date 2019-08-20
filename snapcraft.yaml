@@ -1,9 +1,7 @@
 name: s3-browser
 version: git
 summary: S3 Browser
-description: |
-  OfflineIMAP is software that downloads your email mailbox(es) as local
-  Maildirs. OfflineIMAP will synchronize both sides via IMAP.
+description: S3 Browser
 base: core18
 parts:
   s3-browser:
@@ -13,7 +11,6 @@ parts:
     stage-packages:
       - python-six
       - libgtk-3-dev
-
 apps:
   s3-browser:
-    command: python3 ./setup
+    command: bin/setup
