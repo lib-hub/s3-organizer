@@ -17,7 +17,7 @@ setup(
     long_description=readme,
     author='Krishnaraj G',
     author_email='krishnaraj.20.07.1990@gmail.com',
-    url='https://github.com/team-ultra/s3-browser',
+    url='https://github.com/team-ultra/clan',
     packages=['lib'],
     install_requires=read('requirements.txt'),
     include_package_data=True,
