@@ -11,7 +11,7 @@ def read(name):
     with open(os.path.join(this, name)) as f:
         return f.read()
 setup(
-    name='s3-browser',
+    name='clan',
     version='0.0.1',
     description='description',
     long_description=readme,
@@ -30,5 +30,5 @@ setup(
         'Natural Language :: English'
     ],
     #test_suite='tests',
-    scripts=['bin/s3-browser']
+    scripts=['bin/clan']
 )

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from lib import s3-browser
+from lib import clan
 
 """
     my application.
@@ -10,7 +10,7 @@ def main():
     """run the application"""
 
     print('I\'m inside main')
-    s3-browser.tata()
+    clan.tata()
     input("Press enter to exit ;)")
     input()
 

@@ -1,14 +1,16 @@
-name:           s3-browser
-version:        '1.0'
-summary:        Example python snap app
-description:    Example python snap app
-confinement:    devmode
-grade:          stable
+name: clan
+version: git
+summary: S3 Browser
+description: S3 Browser
 base: core18
-apps:
-  s3-browser:
-    command:    s3-browser
-
 parts:
-  s3-browser:
-    plugin:     python
+  clan:
+    plugin: python
+    python-version: python3
+    source: .
+    stage-packages:
+      - python-six
+      - libgtk-3-dev
+apps:
+  clan:
+    command: clan
