@@ -2,7 +2,6 @@ name: clan
 version: git
 summary: S3 Browser
 description: S3 Browser
-base: core18
 parts:
   clan:
     plugin: python
